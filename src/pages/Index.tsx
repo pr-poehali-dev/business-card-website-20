@@ -90,10 +90,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 opacity-30"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/30 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-[#FFF8F0]">
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center animate-fade-in-up">
