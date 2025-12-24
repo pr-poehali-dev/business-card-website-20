@@ -92,7 +92,7 @@ const Index = () => {
 
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-[#FFF8F0]">
         
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="absolute inset-0 from-primary/20 via-secondary/20 to-accent/20 opacity-30 bg-lime-100 rounded-sm">
           <div className="text-center animate-fade-in-up">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               Инновации
